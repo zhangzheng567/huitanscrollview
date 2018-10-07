@@ -13,5 +13,20 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="change"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="chang to scrollView"/>
+    <EditText
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+    <com.example.zhangzheng.myapplication1.TestButton
+        android:id="@+id/test_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:background="@color/colorPrimaryDark"/>
 
 </LinearLayout>
